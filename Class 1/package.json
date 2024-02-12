@@ -1,0 +1,11 @@
+{
+  "name": "class-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "akcharlie24",
+  "license": "ISC"
+}

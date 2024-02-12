@@ -18,6 +18,7 @@ const heading1 = React.createElement(
     "div",
     {
       id: "container",
+      // hello:"world"  //anything can be added to the props 
     },
     [heading1, heading2]
   );
