@@ -5,6 +5,7 @@ const heading1 = React.createElement(
     "h1",
     {
       id: "title", // used to pass props to ur element
+      key : "h1"   // read about RECONCILATION IN REACT, that is why keys are important in react
     },
     "Heading 1 from Parcel "
   );
@@ -13,6 +14,7 @@ const heading1 = React.createElement(
     "h1",
     {
       id: "title", // used to pass props to ur element
+      key : "h2"
     },
     "Heading 2"
   );
