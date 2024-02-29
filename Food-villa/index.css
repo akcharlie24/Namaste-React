@@ -37,3 +37,14 @@ body {
     padding-right: 1rem;
 } */
 
+.restaurant-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurant-card{
+  border : 0.2rem solid black;
+  margin : 1rem;
+  align-items: center;
+  justify-content: center;
+}
