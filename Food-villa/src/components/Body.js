@@ -15,7 +15,7 @@ const RestaurantCard = (props) => {
       </p>
       <p className="mt-2">{areaName}</p>
       <p className="mt-2 w-64 h-auto overflow-x-hidden overflow-y-hidden text-ellipsis text-center">
-        {cuisines.join(",")}
+        {cuisines.join(", ")}
       </p>
     </div>
   );
