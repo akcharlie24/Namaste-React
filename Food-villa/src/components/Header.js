@@ -9,7 +9,7 @@ export const logo = (
 );
 
 const Header = () => (
-  <div className="flex justify-between items-center border-4 border-black rounded  bg-gradient-to-br bg-gray-100">
+  <div className="flex justify-between items-center border rounded  bg-gradient-to-br bg-lime-100">
     {logo}
     <div className="mr-4">
       <ul className="flex list-none gap-4 text-xl text-black">

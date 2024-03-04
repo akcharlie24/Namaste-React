@@ -5,12 +5,12 @@ import { useState } from "react";
 const RestaurantCard = (props) => {
   const { name, cloudinaryImageId, areaName, cuisines } = props;
   return (
-    <div className="w-64 border-4 border-black m-2 flex flex-col justify-center items-center font-bold rounded ">
+    <div className="w-64 border-2 bg-gray-200 m-2 flex flex-col justify-center items-center rounded ">
       <img
         src={IMG_CDN_LINK + cloudinaryImageId}
-        className="w-56 m-1 border-2 border-black rounded-md"
+        className="w-56 m-1 border border-black rounded-md"
       ></img>
-      <p className=" text-wrap">{name}</p>
+      <p className="font-bold">{name}</p>
     </div>
   );
 };
@@ -22,13 +22,13 @@ const Body = () => {
     <>
       <div className="search-container flex justify-center mt-4 m-2 h-8">
         <input
-          className="search-input w-5/12 border-black border-2 rounded p-2 py-3"
+          className="search-input w-5/12 border-black font border-2 rounded p-2 py-3"
           type="text"
           placholder="search"
           value={searchValue}
           onChange={(e) => (setSearchValue(e.target.value))}
         />
-        <button className="search-btn bg-slate-500 border-2 w-1/12 h-8 border-black rounded mx-4 ">Search</button>
+        <button className="search-btn bg-gray-400 border-2 w-1/12 h-8 border-black rounded mx-4 ">Search</button>
       </div>
       <div className="flex flex-wrap justify-center ">
         {restaurantList.map((r) => (

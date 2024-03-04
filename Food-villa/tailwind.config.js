@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    // below might not work as you also need to give those fonts in the header of index.html to work
     fontFamily: {
       display: ["Open Sans", "sans-serif"],
       "kode-mono": ['"Kodo Mono"', "sans-serif"],
